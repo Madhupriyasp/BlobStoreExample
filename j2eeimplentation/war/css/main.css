@@ -1,0 +1,153 @@
+
+body{
+	overflow-x: hidden;
+}
+ #header {
+    color:white;
+    text-align:center;
+    padding:5px;	
+    height:120px;
+    top:0px;
+ 	z-index: 100;
+    position: fixed;
+    top: 0px;
+    width:1400px;
+    height:123px;
+    box-shadow: 0 0 0 1px rgba(0,0,0,0);
+    text-align:center;
+    background-color:#741010;
+    right:0px;
+    
+}
+
+
+#header div > img
+{
+   height:50%;
+   width:50%;
+   top:0;
+   bottom:0;
+   left:0;
+   right:0;
+}
+
+
+
+#header .header-mainmenu
+{
+	padding: 8px 12px;
+    color: #455C64;
+    background: transparent;
+    text-decoration:none;
+    float:left;
+    top:0px;
+    left:120px;
+   	font-size:16px;
+   	position: relative;
+   	background-color:#f0d0cb;
+   	
+   
+}
+
+.container
+{
+	position:absolute;
+	left:110px;
+	top:-5px;
+}
+#header .right_menu
+{
+	position:relative;
+	right:-250px;
+	top:-35px;
+}
+.block_header {
+    border: 0 none;
+    margin: 0 auto;
+    padding: 0;
+    width: 960px;
+}
+
+#header a:hover{
+	color:black;
+}
+
+  
+#section{
+	position:absolute;
+	top:169px;
+	left:286px;
+	width:703px;
+	height:1100px;
+}
+#nav {
+    width:400px;
+    float:left;
+    position:absolute;
+    top:122px;
+    width:284px;
+    height:1100px;
+    left:0px;
+}
+#aside {
+	position:absolute;
+    width:342px;
+    height:1100px;
+    float:right;
+    padding:10px;
+    top:130px;
+    right:0px;
+    background-color:grey;
+}
+
+
+.download_btn
+{
+	padding: 8px 12px;
+    color: #455C64;
+    background: transparent;
+    text-decoration:none;
+    top:0px;
+   	font-size:16px;
+   	position: relative;
+   	background-color:#00BCD4;
+    text-decoration:none;
+}
+
+#datentime{
+	top:0px;
+	float:left;
+	position:absolute;
+	left:50px;
+}
+
+#footer {
+    background-color:grey;
+    color:white;
+    clear:both;
+    text-align:center;
+    padding:5px;
+    height:200px;
+    position:absolute;
+    bottom:0px;
+    top:1200px;
+    float:left;
+    width:1500px;
+    left:0px;
+    right:0px;
+}
+
+.form .radio >lable
+{display:inline}
+
+.form .checkbox {
+  font-weight: normal;
+  font-size: 16px; 
+  	font-size: 12px;
+	margin: 0px 0px 10px 0;
+	line-height: 14px;
+	font-family: Arial, Helvetica;
+	padding: 10px;
+	height: auto;
+  	width:250px;
+}
